@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+header {
+  background-color: #1a1a2e;
+  color: white;
+  margin: 0 0 1rem 0;
+  padding: 1.5rem 2rem;
+}
+
+main {
+  background-color: #f5f5f0;
+  color: #333;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+footer {
+  background-color: #1a1a2e;
+  color: #aaa;
+  margin: 2rem 0 0 0;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #1a1a2e;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+nav a {
+  background-color: #1a1a2e;
+  color: #a0c4ff;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid transparent;
+  margin: 0 4px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #2e2e5e;
+  color: white;
+  border: 1px solid #a0c4ff;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  margin-top: 1.5rem;
+}
+
+tr th {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 500;
+  border: 1px solid #2e2e5e;
+}
+
+tr td {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  color: #333;
+  vertical-align: middle;
+  text-align: center;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background-color: #f9f9ff;
+}
+
+td svg {
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0 8px;
+}
+
+td svg:hover {
+  color: #3b3baf;
+}
+
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  margin-top: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3b3baf;
+}
+
+button {
+  background-color: #1a1a2e;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
